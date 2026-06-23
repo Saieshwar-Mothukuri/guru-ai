@@ -1,37 +1,12 @@
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
-venv/
-.env/
-.env
-.venv/
-
-# VS Code
-.vscode/
-
-# Jupyter
+# Notebook checkpoints
 .ipynb_checkpoints/
 
-# Log files
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Models and generated artifacts
-models/
-*.joblib
-
-# Data files (raw or temporary)
-data/raw/
-
-# Coverage
+# Coverage and test cache
 .coverage
 htmlcov/
-
-# Pytest
 .pytest_cache/
