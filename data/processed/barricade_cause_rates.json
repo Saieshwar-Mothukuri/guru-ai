@@ -1,0 +1,66 @@
+{
+  "vip_movement": {
+    "closure_rate": 0.8,
+    "tier": "HIGH"
+  },
+  "public_event": {
+    "closure_rate": 0.464,
+    "tier": "HIGH"
+  },
+  "protest": {
+    "closure_rate": 0.4,
+    "tier": "HIGH"
+  },
+  "tree_fall": {
+    "closure_rate": 0.394,
+    "tier": "HIGH"
+  },
+  "construction": {
+    "closure_rate": 0.265,
+    "tier": "MED"
+  },
+  "procession": {
+    "closure_rate": 0.264,
+    "tier": "MED"
+  },
+  "debris": {
+    "closure_rate": 0.154,
+    "tier": "MED"
+  },
+  "road_conditions": {
+    "closure_rate": 0.124,
+    "tier": "MED"
+  },
+  "others": {
+    "closure_rate": 0.086,
+    "tier": "LOW"
+  },
+  "water_logging": {
+    "closure_rate": 0.085,
+    "tier": "LOW"
+  },
+  "congestion": {
+    "closure_rate": 0.044,
+    "tier": "LOW"
+  },
+  "vehicle_breakdown": {
+    "closure_rate": 0.043,
+    "tier": "LOW"
+  },
+  "accident": {
+    "closure_rate": 0.03,
+    "tier": "LOW"
+  },
+  "pot_holes": {
+    "closure_rate": 0.024,
+    "tier": "LOW"
+  },
+  "fog_low_visibility": {
+    "closure_rate": 0.0,
+    "tier": "LOW"
+  },
+  "test_demo": {
+    "closure_rate": 0.0,
+    "tier": "LOW"
+  }
+}

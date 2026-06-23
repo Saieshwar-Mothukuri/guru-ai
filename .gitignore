@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Models and generated artifacts
+models/
+*.joblib
+
+# Data files (raw or temporary)
+data/raw/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/

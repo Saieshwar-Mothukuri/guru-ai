@@ -1,0 +1,954 @@
+[
+  {
+    "event_cause": "construction",
+    "corridor": "ORR East 2",
+    "police_station": "Mahadevapura",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "ORR East 2",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": 270.5436919,
+        "closure_rate": 0.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID005436",
+          "FKID005753",
+          "FKID000575",
+          "FKID004218",
+          "FKID003119"
+        ],
+        "reference_distances": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.267
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "ORR North 1",
+    "police_station": "Hebbal",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "ORR North 1",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.8,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID005672",
+          "FKID001059",
+          "FKID007415",
+          "FKID006763",
+          "FKID006645"
+        ],
+        "reference_distances": [
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "Airport New South Road",
+    "police_station": "KIAL",
+    "dow": 2,
+    "hour": 10,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "Airport New South Road",
+        "dow_name": "Wednesday",
+        "hour": 10
+      },
+      "knn_analog_result": {
+        "median_duration_min": 805.13666105,
+        "closure_rate": 0.8,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID006763",
+          "FKID006645",
+          "FKID005469",
+          "FKID004947",
+          "FKID005672"
+        ],
+        "reference_distances": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "Mysore Road",
+    "police_station": "Kengeri",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "Mysore Road",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 1.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID002057",
+          "FKID001970",
+          "FKID002008",
+          "FKID002015",
+          "FKID007681"
+        ],
+        "reference_distances": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "Varthur Road",
+    "police_station": "Varthur",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "Varthur Road",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.6,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID004085",
+          "FKID001059",
+          "FKID007415",
+          "FKID006763",
+          "FKID002092"
+        ],
+        "reference_distances": [
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "Bellary Road 1",
+    "police_station": "Hebbal",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "Bellary Road 1",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.4,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID001059",
+          "FKID001064",
+          "FKID007415",
+          "FKID006763",
+          "FKID002092"
+        ],
+        "reference_distances": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "construction",
+    "corridor": "ORR East 1",
+    "police_station": "Mahadevapura",
+    "dow": 2,
+    "hour": 11,
+    "result": {
+      "query": {
+        "event_cause": "construction",
+        "corridor": "ORR East 1",
+        "dow_name": "Wednesday",
+        "hour": 11
+      },
+      "knn_analog_result": {
+        "median_duration_min": 25.08736525,
+        "closure_rate": 0.6,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID007027",
+          "FKID001059",
+          "FKID006763",
+          "FKID007415",
+          "FKID002092"
+        ],
+        "reference_distances": [
+          0.438,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "public_event",
+    "corridor": "CBD 2",
+    "police_station": "Cubbon Park",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "public_event",
+        "corridor": "CBD 2",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID000008",
+          "FKID001680",
+          "FKID001988",
+          "FKID001683",
+          "FKID000439"
+        ],
+        "reference_distances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "public_event",
+    "corridor": "Old Airport Road",
+    "police_station": "Indiranagar",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "public_event",
+        "corridor": "Old Airport Road",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": 353.0048949666667,
+        "closure_rate": 0.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID002409",
+          "FKID002410",
+          "FKID002416",
+          "FKID002408",
+          "FKID002411"
+        ],
+        "reference_distances": [
+          0.438,
+          0.438,
+          0.438,
+          0.438,
+          0.455
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "public_event",
+    "corridor": "Bellary Road 2",
+    "police_station": "Hebbal",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "public_event",
+        "corridor": "Bellary Road 2",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.4,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID000008",
+          "FKID008131",
+          "FKID008054",
+          "FKID000946",
+          "FKID001064"
+        ],
+        "reference_distances": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "public_event",
+    "corridor": "Mysore Road",
+    "police_station": "Kengeri",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "public_event",
+        "corridor": "Mysore Road",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 1.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID002015",
+          "FKID002008",
+          "FKID002057",
+          "FKID001970",
+          "FKID003704"
+        ],
+        "reference_distances": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "procession",
+    "corridor": "Magadi Road",
+    "police_station": "Magadi Road",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "procession",
+        "corridor": "Magadi Road",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.4,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID004703",
+          "FKID006314",
+          "FKID007686",
+          "FKID007191",
+          "FKID001059"
+        ],
+        "reference_distances": [
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.75
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "procession",
+    "corridor": "Mysore Road",
+    "police_station": "Halasuru Gate",
+    "dow": 5,
+    "hour": 18,
+    "result": {
+      "query": {
+        "event_cause": "procession",
+        "corridor": "Mysore Road",
+        "dow_name": "Saturday",
+        "hour": 18
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.6,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID006314",
+          "FKID008080",
+          "FKID007686",
+          "FKID007191",
+          "FKID001970"
+        ],
+        "reference_distances": [
+          0.0,
+          0.25,
+          0.25,
+          0.5,
+          0.5
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "vip_movement",
+    "corridor": "Mysore Road",
+    "police_station": "Kengeri",
+    "dow": 2,
+    "hour": 10,
+    "result": {
+      "query": {
+        "event_cause": "vip_movement",
+        "corridor": "Mysore Road",
+        "dow_name": "Wednesday",
+        "hour": 10
+      },
+      "knn_analog_result": {
+        "median_duration_min": 35.87456808333333,
+        "closure_rate": 1.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID002057",
+          "FKID001970",
+          "FKID002008",
+          "FKID002015",
+          "FKID005634"
+        ],
+        "reference_distances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.455
+        ]
+      },
+      "manpower": {
+        "recommended_units": 4,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High risk corridor-hour",
+          "+1 unit: barricade/closure expected, needs a unit to manage diversion at the barrier",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          },
+          {
+            "officer_id": "OFF-3310",
+            "name": "HC Suresh",
+            "corridor_zone": "Central Zone 1",
+            "eta_min": 11
+          },
+          {
+            "officer_id": "OFF-4471",
+            "name": "PC Anitha",
+            "corridor_zone": "North Zone 1",
+            "eta_min": 14
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  },
+  {
+    "event_cause": "protest",
+    "corridor": "CBD 2",
+    "police_station": "Cubbon Park",
+    "dow": 2,
+    "hour": 12,
+    "result": {
+      "query": {
+        "event_cause": "protest",
+        "corridor": "CBD 2",
+        "dow_name": "Wednesday",
+        "hour": 12
+      },
+      "knn_analog_result": {
+        "median_duration_min": null,
+        "closure_rate": 0.0,
+        "median_priority": "High",
+        "reference_event_ids": [
+          "FKID000008",
+          "FKID001683",
+          "FKID001680",
+          "FKID001988",
+          "FKID000439"
+        ],
+        "reference_distances": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "manpower": {
+        "recommended_units": 2,
+        "reasoning": [
+          "baseline 1 unit for any logged incident",
+          "+1 unit: High priority incident"
+        ],
+        "officers_to_dispatch": [
+          {
+            "officer_id": "OFF-1042",
+            "name": "HC Ramesh",
+            "corridor_zone": "West Zone 1",
+            "eta_min": 6
+          },
+          {
+            "officer_id": "OFF-2287",
+            "name": "PSI Lakshmi",
+            "corridor_zone": "West Zone 2",
+            "eta_min": 9
+          }
+        ],
+        "note": "Officer roster is MOCKED for this demo -- production reads live geo-tagged positions from GURU MARS's existing e-attendance feed."
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "from": "Bannerghata Road",
+    "to": "IRR(Thanisandra road)",
+    "lag_hours": 2,
+    "pearson_r": 0.3197,
+    "p_value": 8.866502463460241e-87,
+    "n_obs": 3619
+  },
+  {
+    "from": "Mysore Road",
+    "to": "ORR East 1",
+    "lag_hours": 1,
+    "pearson_r": 0.2965,
+    "p_value": 2.1491097671638486e-74,
+    "n_obs": 3620
+  }
+]
