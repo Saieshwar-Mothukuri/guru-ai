@@ -113,14 +113,14 @@ The panel pulses red on load to draw the eye in the demo. Statistics shown: Pear
 
 ```bash
 pip install -r requirements.txt --break-system-packages
-python3 src/data_foundation.py
-python3 src/model1_risk_surface.py
-python3 src/model2_duration.py
-python3 src/model3_cascade.py
-python3 src/model4_barricade.py
-python3 src/model5_planned_lookup.py
-python3 src/ledger.py
-python3 -m uvicorn api.main:app --reload   # serves the REST API on :8000
+python src/data_foundation.py
+python src/model1_risk_surface.py
+python src/model2_duration.py
+python src/model3_cascade.py
+python src/model4_barricade.py
+python src/model5_planned_lookup.py
+python src/ledger.py
+python -m uvicorn api.main:app --reload   # serves the REST API on :8000
 ```
 
 The interactive dashboard (`guru_mars_console.html`) is fully standalone -- it has the real model outputs embedded directly and needs no server to run, so judges can open it without standing up the API.
